@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
 </head>
-
+<style>
+    .bg-card{
+        background-color: rgb(222,235,247);
+    }
+    .img-contacto{
+        background-image: url(/IMG/contacto.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+    }
+</style>
 <body>
 <?php require('Navbar.php');?>
 
-<div class="container">
-    <header>
+
+    <header class="container">
         <div class="row">
             <div class="col">
                 <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
@@ -110,18 +120,18 @@
                 </div>
             </div>
         </div>
-        
-        <div class="row my-2">
-            <div class="col-12 shadow text-center bg-light bg-gradient">
-                <p class="display-5">Consultoría Externa</p>
-                <h3 class="text-muted">Servicio de asesoría especializada</h2>
-                <p class="fs-5">Diagnóstico en Comunicación Organizacional  y Capacitación en <mark>Derechos Humanos</mark> </p>
-            </div>
-        </div>
-    
+               
     </header>   
+
+    <div class="row my-2">
+        <div class="col-12 shadow text-center bg-light bg-gradient">
+            <p class="display-5">Consultoría Externa</p>
+            <h3 class="text-muted">Servicio de asesoría especializada</h2>
+            <p class="fs-5">Diagnóstico en Comunicación Organizacional  y Capacitación en <mark>Derechos Humanos</mark> </p>
+        </div>
+    </div>
     
-    <main>
+    <main class="container">
         <div class="row">
             <div class="col">
                 <p class="display-4 text-center">Servicios</p>
@@ -130,29 +140,75 @@
         </div>
 
         <div class="row mb-3 ">
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="card p-1">
+            <div class="col-12  col-md-5 pb-2">
+                <a href="Servicios.php" class="text-decoration-none text-dark">
+                <div class="card p-1 bg-card">
                     <div class="card-body">
                         <img class="img-fluid p-1" src="/IMG/Servicios1.png" width="75" alt="">
                         <h5 class="card-title">Diagnóstico en Comunicación Organizacional</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
                     </div>
-                </div>
+                </div></a>
             </div>
-            
-            <div class="col-12 col-sm-6 col-md-7">
-                <div class="card">
-                    <div class="card-body pt-2">
-                        <h5 class="card-title">Capacitación</h5>
-                        <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
+
+            <div class="col-12 col-md-7">
+                <a href="Servicios.php" class="text-decoration-none text-dark">
+                    <div class="card bg-card">
+                        <div class="card-body pt-2">
+                            <h5 class="card-title">Capacitación</h5>
+                            <hr>
+                            <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
+                            <div class="row text-center ">
+                                <hr>
+                                <div class="col-6 ">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        <p class="fst-italic ">Diseño de Cursos</p>
+                                        <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                <a href=""  class="text-decoration-none text-dark">
+                                    <p class="fst-italic">Impartición de Cursos</p>
+                                    <img class="img-fluid " src="/IMG/Imparticion-de-Cursos.png" width="100" alt="">
+                                </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    
+                </a>
             </div>  
             
         </div>
     </main>
 
+
+<div class="img-contacto">
+    <div class="container  ">
+        <div class="row text-white align-items-center p-5">
+            <p class="display-6 pb-3 ">Que tu negocio tenga mejor organización</p>
+            <h4 class="pb-2">¡Contáctanos!</h4>
+            <p class="fs-5">Llena el formulario y con gusto te atenderemos</p>
+        </div>
+        <a href="Contacto.php" type="button" class="btn btn-primary">Contacto</a>
+    </div>
 </div>
+
+<article class="bg-secondary">
+    <div class="row align-items-center" style="height: 200px;">
+        <div class="col ">
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et porro cum vitae dolore nesciunt?</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Lorem ipsum dolor sit amet.
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</article>
+
     
 
     
@@ -161,6 +217,6 @@
 
 <?php include('Footer.php');?>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>
 </html>
