@@ -17,6 +17,7 @@
         background-size: cover;
         height: 400px;
     }
+   
 </style>
 <body>
 <?php require('Navbar.php');?>
@@ -124,7 +125,7 @@
     </header>   
 
     <div class="row my-2">
-        <div class="col-12 shadow text-center bg-light bg-gradient">
+        <div class="col-12 shadow text-center bg-light bg-gradient ">
             <p class="display-5">Consultoría Externa</p>
             <h3 class="text-muted">Servicio de asesoría especializada</h2>
             <p class="fs-5">Diagnóstico en Comunicación Organizacional  y Capacitación en <mark>Derechos Humanos</mark> </p>
@@ -194,15 +195,15 @@
     </div>
 </div>
 
-<article class="bg-secondary">
+<article class="bg-secondary ">
     <div class="row align-items-center" style="height: 200px;">
         <div class="col ">
             <figure class="text-center">
                 <blockquote class="blockquote">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et porro cum vitae dolore nesciunt?</p>
                 </blockquote>
-                <figcaption class="blockquote-footer">
-                    Lorem ipsum dolor sit amet.
+                <figcaption class="blockquote-footer text-body">
+                    -Lorem ipsum dolor sit amet.
                 </figcaption>
             </figure>
         </div>

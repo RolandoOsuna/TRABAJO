@@ -37,9 +37,9 @@
     <div class="row pb-4">
         <div class="col-12 col-md-4 pt-4 text-center align-self-center">
             <img class="img-fluid pt-2" src="/IMG/contenido4.png"  alt="">
-            <img class="img-fluid pt-2" src="/IMG/contenido5.png"  alt="">
-            <img class="img-fluid pt-2" src="/IMG/contenido6.jpg"  alt="">
-            <img class="img-fluid pt-2" src="/IMG/contenido7.jpg"  alt="">
+            <img class="img-fluid pt-2 d-md-block d-none" src="/IMG/contenido5.png"  alt="">
+            <img class="img-fluid pt-2 d-md-block d-none" src="/IMG/contenido6.jpg"  alt="">
+            <img class="img-fluid pt-2 d-md-block d-none" src="/IMG/contenido7.jpg"  alt="">
 
         </div>
         <div class="col-12 col-md-8 ">
