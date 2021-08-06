@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
 </head>
 <style>
-    .bg-color{
-        
+    .bg-blog{
+        background-color: rgb(126,105,88);
+
     }
 </style>
 <body>
@@ -23,7 +24,12 @@
     <div class="row">
         <div class="col-12 col-md-6 col-lg-8">
             <h4>Diagnóstico en Comunicación Organizacional</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quasi eum, asperiores delectus accusamus laboriosam harum. Sit aliquam saepe, doloremque repellat iusto eligendi? Numquam provident ipsam natus autem? Magnam, provident soluta. Doloribus exercitationem impedit delectus natus dolores, debitis similique cupiditate rerum maiores iusto in a adipisci maxime sed fuga illum architecto? Deserunt fugit pariatur deleniti dolorem, id, cum quaerat temporibus asperiores velit laborum aspernatur autem voluptatem nulla ullam ut incidunt.</p>
+            <p>Un diagnóstico de comunicación organizacional es el análisis que tiene como
+                propósito examinar y mejorar los sistemas y prácticas de comunicación interna y
+                externa de una organización en todos sus niveles. Examina también los productos
+                comunicacionales de una organización y puede contemplar las formas de distorsión
+                de la comunicación como los rumores y ruidos que generan las estructuras de
+                poder en una organización</p>
         </div>
         <aside class="col-12 col-md-6 col-lg-4 align-self-center">
         <img class="img-fluid" src="/IMG/contenido1.jpg" alt="">
@@ -32,17 +38,73 @@
 
     <div class="row pt-5 ">
         <p class="display-6 text-center">Capacitación</p>
-        <aside class="col-12 col-md-6 col-lg-4 align-self-center">
-        <a href="" class="text-decoration-none text-dark"><img class="img-fluid" src="/IMG/contenido2.png" alt=""></a>
+        <aside class="col-12 col-md-6 col-lg-4 align-self-center text-center">
+       <img class="img-fluid" src="/IMG/contenido2.png" alt="">
         </aside>
         <div class="col-12 col-md-6 col-lg-8">
-            <a href="" class="text-decoration-none text-dark"><h4>Diseño de Cursos</h4>
+            <h4>Diseño de Cursos</h4>
             <p>En esta modalidad, solo se diseña el curso de acuerdo a las necesidades del cliente, para que lo imparta la persona que la misma indique; quedándose bajo propiedad de la misma y pueda ser replicado las veces que sea necesaria.  Con el diseño del curso se entregará</p>
             <hr>
             <h4> Diseño e Impartición de Cursos</h4>
-            <p>En esta modalidad, se diseña el curso de acuerdo a las necesidades del cliente y se imparte.  Con el diseño del curso se entregará:</p>
-        </div></a>
+            <p>En esta modalidad, se diseña el curso de acuerdo a las necesidades del cliente y se imparte.  Con el diseño del curso se entregará:  <a href="Cursos.php" class=" link-primary">Ver más</a></p>
+
+        </div>
     </div>
+
+<section class="container">
+    <div class="row">
+        <div class="col">
+            <p class="display-4 text-center">Blog</p>
+            <hr>
+        </div>  
+    </div>
+
+    <p class="text-center fs-5">Descubre más información</p>
+    
+    <div class="row justify-content-evenly " >
+        <div class="col-12 col-md-6 col-lg-3 pb-2 ">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Metodología </h5>
+                <h6 class="text-white-50">Necesidad de diagnóstico del sistema de Comunicación Organizacional</h6>
+                <p class="text-white-50">Un diagnóstico de comunicación organizacional es el análisis que tiene como propósito examinar y mejorar los sistemas y prácticas de comunicación interna y externa de una organización en todos sus niveles.
+                <a href="MetodologiaNDSCO.php" class="text-black-50 ">  Ver más</a></p>
+    
+            </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Metodología </h5>
+                <h6 class="text-white-50">Detección de Necesidades de Capacitación (DNC)</h6>
+                <p class="text-white-50">El diagnóstico de necesidades de capacitación es el proceso mediante el cual nos
+                    aproximamos al estado real de conocimiento y destrezas del recurso humano en el ámbito
+                    organizacional, en relación a los objetivos y las funciones de cada puesto.
+                <a href="MetodologiaDNC.php" class="text-black-50">  Ver más</a></p>
+                
+            </div>
+
+        </div>  
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Definición </h5>
+                <h6 class="text-white-50">Qué hace un consultor y cómo elegir al mejor</h6>
+                <p class="text-white-50">Las consultoras de Recursos Humanos realizan un trabajo que implica análisis, identificación de problemas y creación de estrategias para resolverlos. Además, produce las modificaciones pertinentes para mejorar dicho departamento.
+                <a href="Definicion.php" class="text-black-50">  Ver más</a></p>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Beneficios </h5>
+                <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
+                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
+                <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
+
+            </div>
+        </div>  
+    </div>
+
+</section>
 </div>
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>

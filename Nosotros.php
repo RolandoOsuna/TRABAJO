@@ -10,8 +10,12 @@
 <style>
     .bg-card{
             background-color: rgb(222,235,247);
-        }
+        
+        }  
+    .bg-blog{
+        background-color: rgb(126,105,88);
 
+    }
 </style>
 <body>  
 <?php require('Navbar.php');?>
@@ -87,49 +91,43 @@
     </div>
 
     <div class="row">
-    <p class="display-6 text-center">Más Sobre Nosotros</p>
-    <hr>
+        <p class="display-6 text-center">Más Sobre Nosotros</p>
+        <hr>
+    </div>
+    
     <div class="row mb-3 ">
-            <div class="col-12  col-md-5 pb-2">
-                <a href="Servicios.php" class="text-decoration-none text-dark">
-                <div class="card p-1 bg-card">
-                    <div class="card-body">
-                        <img class="img-fluid p-1" src="/IMG/Servicios1.png" width="75" alt="">
-                        <h5 class="card-title">Diagnóstico en Comunicación Organizacional</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
-                    </div>
-                </div></a>
+        <div class="col-12  col-md-6 pb-2 align-self-center">
+            <div class=" p-2 bg-card rounded">
+                <img class="img-fluid p-1" src="/IMG/Servicios1.png" width="75" alt="">
+                <h5 class="card-title">Diagnóstico en Comunicación Organizacional</h5>
+                <p class="card-text">Es el análisis que tiene como propósito examinar y mejorar los sistemas y prácticas de comunicación interna y externa de una organización en todos sus niveles.
+                <a href="Servicios.php" class="text-muted text-decoration-none">  Ver más</a></p>
             </div>
-
-            <div class="col-12 col-md-7">
-                <a href="Servicios.php" class="text-decoration-none text-dark">
-                    <div class="card bg-card">
-                        <div class="card-body pt-2">
-                            <h5 class="card-title">Capacitación</h5>
-                            <hr>
-                            <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
-                            <div class="row text-center ">
-                                <hr>
-                                <div class="col-6 ">
-                                    <a href="" class="text-decoration-none text-dark">
-                                        <p class="fst-italic ">Diseño de Cursos</p>
-                                        <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                <a href=""  class="text-decoration-none text-dark">
-                                    <p class="fst-italic">Impartición de Cursos</p>
-                                    <img class="img-fluid " src="/IMG/Imparticion-de-Cursos.png" width="100" alt="">
-                                </a>
-                                </div>
-                            </div>
+        </div>
+    
+        <div class="col-12 col-md-6 ">
+            <a href="Servicios.php" class="text-decoration-none text-dark">
+                <div class="bg-card rounded p-2">
+                    <h5 >Capacitación</h5>           
+                    <p>Ofrecemos capacitación mediante diseño e imparticion de cursos </p>
+                    <hr>
+                    <div class="row text-center ">
+                        <div class="col-6 ">
+                            <a href="Cursos.php" class="text-decoration-none text-dark">            
+                                <p class="lead">Diseño de Cursos</p>
+                                <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="Cursos.php"  class="text-decoration-none text-dark">
+                                <p class="lead">Impartición de Cursos</p>
+                                <img class="img-fluid " src="/IMG/Imparticion-de-Cursos.png" width="100" alt="">
+                            </a>
                         </div>
                     </div>
-                    
-                </a>
-            </div>  
-            
-        </div>
+                </div>   
+            </a>
+        </div>              
     </div>
 
 </div>

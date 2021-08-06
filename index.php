@@ -17,12 +17,17 @@
         background-size: cover;
         height: 400px;
     }
+    .bg-blog{
+        background-color: rgb(126,105,88);
+
+    }
    
 </style>
 <body>
+<!--NAVBAR-->
 <?php require('Navbar.php');?>
 
-
+<!--HEADER-->
     <header class="container">
         <div class="row">
             <div class="col">
@@ -128,10 +133,10 @@
         <div class="col-12 shadow text-center bg-light bg-gradient ">
             <p class="display-5">Consultoría Externa</p>
             <h3 class="text-muted">Servicio de asesoría especializada</h2>
-            <p class="fs-5">Diagnóstico en Comunicación Organizacional  y Capacitación en <mark>Derechos Humanos</mark> </p>
+            <p class="fs-5">Diagnóstico en Comunicación Organizacional  y Capacitación en <mark>Recursos Humanos</mark> </p>
         </div>
     </div>
-    
+<!--SERVICIOS-->
     <main class="container">
         <div class="row">
             <div class="col">
@@ -141,49 +146,43 @@
         </div>
 
         <div class="row mb-3 ">
-            <div class="col-12  col-md-5 pb-2">
-                <a href="Servicios.php" class="text-decoration-none text-dark">
-                <div class="card p-1 bg-card">
-                    <div class="card-body">
-                        <img class="img-fluid p-1" src="/IMG/Servicios1.png" width="75" alt="">
-                        <h5 class="card-title">Diagnóstico en Comunicación Organizacional</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
-                    </div>
-                </div></a>
+            <div class="col-12  col-md-6 pb-2 align-self-center">
+                <div class=" p-2 bg-card rounded">
+                    <img class="img-fluid p-1" src="/IMG/Servicios1.png" width="75" alt="">
+                    <h5 class="card-title">Diagnóstico en Comunicación Organizacional</h5>
+                    <p class="card-text">Es el análisis que tiene como propósito examinar y mejorar los sistemas y prácticas de comunicación interna y externa de una organización en todos sus niveles.
+                    <a href="Servicios.php" class="text-muted text-decoration-none">  Ver más</a></p>
+                </div>
             </div>
 
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-6 ">
                 <a href="Servicios.php" class="text-decoration-none text-dark">
-                    <div class="card bg-card">
-                        <div class="card-body pt-2">
-                            <h5 class="card-title">Capacitación</h5>
-                            <hr>
-                            <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam, praesentium numquam id debitis quod?</p>
-                            <div class="row text-center ">
-                                <hr>
-                                <div class="col-6 ">
-                                    <a href="" class="text-decoration-none text-dark">
-                                        <p class="fst-italic ">Diseño de Cursos</p>
-                                        <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                <a href=""  class="text-decoration-none text-dark">
-                                    <p class="fst-italic">Impartición de Cursos</p>
+                    <div class="bg-card rounded p-2">
+                        <h5 >Capacitación</h5>           
+                        <p>Ofrecemos capacitación mediante diseño e imparticion de cursos </p>
+                        <hr>
+                        <div class="row text-center ">
+                            <div class="col-6 ">
+                                <a href="Cursos.php" class="text-decoration-none text-dark">            
+                                    <p class="lead">Diseño de Cursos</p>
+                                    <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="Cursos.php"  class="text-decoration-none text-dark">
+                                    <p class="lead">Impartición de Cursos</p>
                                     <img class="img-fluid " src="/IMG/Imparticion-de-Cursos.png" width="100" alt="">
                                 </a>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </a>
             </div>  
             
         </div>
     </main>
 
-
+<!--CONTACTO-->
 <div class="img-contacto">
     <div class="container  ">
         <div class="row text-white align-items-center p-5">
@@ -195,6 +194,63 @@
     </div>
 </div>
 
+<!--BLOG-->
+<section class="container">
+    <div class="row">
+        <div class="col">
+            <p class="display-4 text-center">Blog</p>
+            <hr>
+        </div>  
+    </div>
+
+    <p class="text-center fs-5">Conoce mas sobre las Metodologías y los beneficios</p>
+    
+    <div class="row justify-content-evenly " >
+        <div class="col-12 col-md-6 col-lg-3 pb-2 ">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Metodología </h5>
+                <h6 class="text-white-50">Necesidad de diagnóstico del sistema de Comunicación Organizacional</h6>
+                <p class="text-white-50">Un diagnóstico de comunicación organizacional es el análisis que tiene como propósito examinar y mejorar los sistemas y prácticas de comunicación interna y externa de una organización en todos sus niveles.
+                <a href="MetodologiaNDSCO.php" class="text-black-50 ">  Ver más</a></p>
+    
+            </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Metodología </h5>
+                <h6 class="text-white-50">Detección de Necesidades de Capacitación (DNC)</h6>
+                <p class="text-white-50">El diagnóstico de necesidades de capacitación es el proceso mediante el cual nos
+                    aproximamos al estado real de conocimiento y destrezas del recurso humano en el ámbito
+                    organizacional, en relación a los objetivos y las funciones de cada puesto.
+                <a href="MetodologiaDNC.php" class="text-black-50">  Ver más</a></p>
+                
+            </div>
+
+        </div>  
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Definición </h5>
+                <h6 class="text-white-50">Qué hace un consultor y cómo elegir al mejor</h6>
+                <p class="text-white-50">Las consultoras de Recursos Humanos realizan un trabajo que implica análisis, identificación de problemas y creación de estrategias para resolverlos. Además, produce las modificaciones pertinentes para mejorar dicho departamento.
+                <a href="Definicion.php" class="text-black-50">  Ver más</a></p>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-2">
+            <div class="p-3 border rounded bg-blog shadow text-light">
+                <h4>Beneficios </h5>
+                <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
+                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
+                <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
+
+            </div>
+        </div>  
+    </div>
+
+</section>
+
+<!--OPINIONES-->
 <article class="bg-secondary ">
     <div class="row align-items-center" style="height: 200px;">
         <div class="col ">
@@ -203,7 +259,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et porro cum vitae dolore nesciunt?</p>
                 </blockquote>
                 <figcaption class="blockquote-footer text-body">
-                    -Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet.
                 </figcaption>
             </figure>
         </div>
@@ -215,7 +271,7 @@
     
 
 
-
+<!--FOOTER-->
 <?php include('Footer.php');?>
 
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
