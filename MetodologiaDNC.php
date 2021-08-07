@@ -14,11 +14,12 @@
     }
 </style>
 <body>
-<?php require('Navbar.php');?>      
+<?php require('Navbar.php');?> 
+<div class="fs-5">    
     <div class="container">
         <div class="row ">
             <div class="col-12 col-md-6">
-                <img src="/IMG/Metodología2.png" class="img-fluid " alt="">
+                <img src="/IMG/Metodologia2.png" class="img-fluid " alt="">
             </div>
             <div class=" col-12 col-md-6 pt-4 ">
                 <h4 class="text-capitalize">Detección Individual de Requerimientos de Capacitación. </h4>
@@ -50,6 +51,7 @@
             </div>
         </div>
     </div>
+</div>
 <section class="container">
     <div class="row">
         <div class="col">
@@ -85,14 +87,16 @@
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Beneficios </h5>
                 <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
-                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
-                <a href="Definicion.php" class="text-black-50">  Ver más</a></p>
+                <p class="text-white-50">Las ventajas que ofrece el contar con los servicios de consultoras de personal, es que se encargan de llevar a cabo una serie de procedimientos y técnicas especializadas para la selección, evaluación y capacitación del recurso humano, y que tienen en común la planificación de actividades para la búsqueda del recurso humano más calificado para el puesto.
+                <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
 
             </div>
         </div>  
     </div>
-
+    
 </section>
+ 
+
 
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>

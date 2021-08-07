@@ -14,42 +14,46 @@
     }
 </style>
 <body>
-<?php require('Navbar.php');?>      
-<header class="container">
-    <p class="display-4 text-center ">Servicios</p>
-    <hr>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque omnis in laudantium aspernatur optio inventore maxime aliquam a tenetur? A tempore porro obcaecati voluptates atque, sapiente magni tenetur veniam rem, dignissimos quibusdam quidem. Culpa ab cupiditate provident sed beatae, odit soluta est quod, rem quibusdam natus iste voluptas facere!</p><!--Aqui se pondrá una descripcion de los servicios que se ofrecen-->
-</header>
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-8">
-            <h4>Diagnóstico en Comunicación Organizacional</h4>
-            <p>Un diagnóstico de comunicación organizacional es el análisis que tiene como
-                propósito examinar y mejorar los sistemas y prácticas de comunicación interna y
-                externa de una organización en todos sus niveles. Examina también los productos
-                comunicacionales de una organización y puede contemplar las formas de distorsión
-                de la comunicación como los rumores y ruidos que generan las estructuras de
-                poder en una organización</p>
-        </div>
-        <aside class="col-12 col-md-6 col-lg-4 align-self-center">
-        <img class="img-fluid" src="/IMG/contenido1.jpg" alt="">
-        </aside>
-    </div>
+<?php require('Navbar.php');?> 
+<div class="fs-5">
 
-    <div class="row pt-5 ">
-        <p class="display-6 text-center">Capacitación</p>
-        <aside class="col-12 col-md-6 col-lg-4 align-self-center text-center">
-       <img class="img-fluid" src="/IMG/contenido2.png" alt="">
-        </aside>
-        <div class="col-12 col-md-6 col-lg-8">
-            <h4>Diseño de Cursos</h4>
-            <p>En esta modalidad, solo se diseña el curso de acuerdo a las necesidades del cliente, para que lo imparta la persona que la misma indique; quedándose bajo propiedad de la misma y pueda ser replicado las veces que sea necesaria.  Con el diseño del curso se entregará</p>
-            <hr>
-            <h4> Diseño e Impartición de Cursos</h4>
-            <p>En esta modalidad, se diseña el curso de acuerdo a las necesidades del cliente y se imparte.  Con el diseño del curso se entregará:  <a href="Cursos.php" class=" link-primary">Ver más</a></p>
-
+    <header class="container">
+        <p class="display-4 text-center ">Servicios</p>
+        <hr>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque omnis in laudantium aspernatur optio inventore maxime aliquam a tenetur? A tempore porro obcaecati voluptates atque, sapiente magni tenetur veniam rem, dignissimos quibusdam quidem. Culpa ab cupiditate provident sed beatae, odit soluta est quod, rem quibusdam natus iste voluptas facere!</p><!--Aqui se pondrá una descripcion de los servicios que se ofrecen-->
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-8">
+                <h4>Diagnóstico en Comunicación Organizacional</h4>
+                <p>Un diagnóstico de comunicación organizacional es el análisis que tiene como
+                    propósito examinar y mejorar los sistemas y prácticas de comunicación interna y
+                    externa de una organización en todos sus niveles. Examina también los productos
+                    comunicacionales de una organización y puede contemplar las formas de distorsión
+                    de la comunicación como los rumores y ruidos que generan las estructuras de
+                    poder en una organización</p>
+            </div>
+            <aside class="col-12 col-md-6 col-lg-4 align-self-center">
+            <img class="img-fluid" src="/IMG/contenido1.jpg" alt="">
+            </aside>
+        </div>
+    
+        <div class="row pt-5 ">
+            <p class="display-6 text-center">Capacitación</p>
+            <aside class="col-12 col-md-6 col-lg-4 align-self-center text-center">
+           <img class="img-fluid" src="/IMG/contenido2.png" alt="">
+            </aside>
+            <div class="col-12 col-md-6 col-lg-8">
+                <h4>Diseño de Cursos</h4>
+                <p>En esta modalidad, solo se diseña el curso de acuerdo a las necesidades del cliente, para que lo imparta la persona que la misma indique; quedándose bajo propiedad de la misma y pueda ser replicado las veces que sea necesaria.  Con el diseño del curso se entregará</p>
+                <hr>
+                <h4> Diseño e Impartición de Cursos</h4>
+                <p>En esta modalidad, se diseña el curso de acuerdo a las necesidades del cliente y se imparte.  Con el diseño del curso se entregará:  <a href="Cursos.php" class=" link-primary">Ver más</a></p>
+    
+            </div>
         </div>
     </div>
+</div>     
 
 <section class="container">
     <div class="row">
@@ -97,7 +101,7 @@
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Beneficios </h5>
                 <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
-                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
+                <p class="text-white-50">Las ventajas que ofrece el contar con los servicios de consultoras de personal, es que se encargan de llevar a cabo una serie de procedimientos y técnicas especializadas para la selección, evaluación y capacitación del recurso humano, y que tienen en común la planificación de actividades para la búsqueda del recurso humano más calificado para el puesto.
                 <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
 
             </div>
@@ -105,7 +109,7 @@
     </div>
 
 </section>
-</div>
+
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>

@@ -12,11 +12,14 @@
 </style>
 <body>
 <?php require('Navbar.php');?>
-
-
-
+<div class="fs-5">
     <h1>Contacto</h1>
     <header></header>
+</div>
+
+
+
+    
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>

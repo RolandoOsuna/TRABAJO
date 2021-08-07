@@ -14,14 +14,56 @@
     }
 </style>
 <body>
-<?php require('Navbar.php');?>
-
-
-
-    <h1>Beneficios</h1>
-    <header></header>
-
+    <?php require('Navbar.php');?>
+<div class="fs-5">
+    <header class="container">
+        <p class="display-4 text-center">Beneficios de una Consulta</p>
+        <hr>
+    </header>
     <section class="container">
+        <div class="row">
+            <p class="pb-3 lead  text-center">Ayudarse de una consultora de <mark>Recursos Humanos</mark> conlleva múltiples beneficios para una organización.</p> 
+            <div class="col-12 col-lg-7 align-self-center">
+                <p>Para empezar, la consultoría de <mark>Recursos Humanos</mark> nos ayuda a crear y planificar nuevas estrategias, y es perfecta cuando queremos dar un salto cualitativo y carecemos de la experiencia necesaria para hacerlo. Además, nos permite tener una visión objetiva de nuestro departamento y de nuestras necesidades en general.</p>   
+            </div>
+            <aside class="col-12 col-lg-5 text-center">
+                <img src="/IMG/Beneficios.jpg" class="img-fluid" width="350" alt="">
+            </aside>
+        </div>
+        
+        <div class="row pt-4">
+            <aside class="col-12 col-lg-5 text-center">
+                <img src="/IMG/Beneficios2.jpg" class="img-fluid" width="350" alt="">
+            </aside>
+            <div class="col-12 col-lg-7 align-self-center">
+                <p>Otros  de sus puntos fuertes son que permite aprovechar mejor el capital humano de la empresa, e incluso captar talento nuevo; y que favorece la transformación cultural de la compañía (la guía para que se enfrente adecuadamente a los nuevos procesos).</p>
+                <p>También es capaz de proponer modelos de liderazgo en momentos de crisis. Una consultora de <mark>Recursos Humanos</mark> ayudará a que esta situación se gestione de la manera más acertada, rápida y  profesional posible.</p>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-12">
+                <p>Gestionar al capital humano de las organizaciones es una tarea que exige dedicación y alta experticia, por esta razón las grandes y medianas empresas optan por contratar sus servicios. Según el perfil del personal requerido las empresas contactaran estos servicios. Por ejemplo para el reclutamiento y contratación de personal CEO. Estaríamos hablando de consultoras encargadas de la búsqueda de talentos de alto nivel (directores, presidentes, gerentes corporativos, socios estratégicos), que apunten a ocupar puestos estratégicos claves para la empresa, y de carácter confidencial.</p>
+                <p>La importancia de elegir una consultora de personal experta redundará en contar con el respaldo y lograr una buena selección, que radica en tener las mejores expectativas del personal que se encargará del desempeño de sus actividades dentro de la empresa; por consiguiente, la evaluación asegurará a la empresa un proceso impecable, en el cual se han aplicado los mejores métodos y técnicas, en relación a:</p>
+                <li>Perfil de los candidatos</li>
+                <li>Experiencia laboral</li>
+                <li>Trayectoria en educación y conocimientos</li>
+                <li>Aspectos psicológicos</li>
+                <li>Competencias organizacionales según el nivel a ocupar</li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ps-5">
+                <hr>
+                <p class="text-muted ps-5">Bibliografía</p>
+                <li class="ps-5"><a href="https://www.bizneo.com/blog/consultoras-recursos-humanos/#Beneficios_de_contratar_una_consultora_de_Recursos_Humanos" class="text-muted">Bizmeo</a></li>
+                <li class="ps-5"><a href="https://efiempresa.com/blog/efiempresa-consultoras-de-personal/" class="text-muted">Efiempresa</a></li>
+                <hr>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+<section class="container">
     <div class="row">
         <div class="col">
             <p class="display-4 text-center">Blog</p>
@@ -67,6 +109,7 @@
     </div>
 
 </section>
+
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>

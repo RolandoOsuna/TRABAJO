@@ -26,6 +26,7 @@
 </style>
 <body>
     <?php require('Navbar.php');?>
+<div class="fs-5">
     <div class="container">
 
         <header>
@@ -41,7 +42,7 @@
                     <p>En esta modalidad, solo se diseña el curso de acuerdo a las necesidades del cliente, para que lo imparta la persona que la misma indique; quedándose bajo propiedad de la misma y pueda ser replicado las veces que sea necesaria.  Con el diseño del curso se entregará:</p>
                 </div>
                 <aside class="col-12 col-sm-6 col-lg-5  text-center ">
-                    <img src="/IMG/Diseño.jpg" class="img-fluid img-thumbnail rounded" width="400" alt="">
+                    <img src="/IMG/Diseno.jpg" class="img-fluid img-thumbnail rounded" width="400" alt="">
                 </aside>
             </div>
 
@@ -93,7 +94,7 @@
                 <aside class="col-12 col-sm-6 col-lg-7 text-lg-center">
                     <h4>Impartición de Cursos</h4>
                     <p>En esta modalidad, se diseña el curso de acuerdo a las necesidades del cliente y se imparte.  Con el diseño del curso se entregará:</p>
-                    <img src="/IMG/Diseño2.jpeg" class="img-fluid img-thumbnail rounded" width="400" alt="">
+                    <img src="/IMG/Diseno2.jpeg" class="img-fluid img-thumbnail rounded" width="400" alt="">
                     <p class="blockquote fs-6 text-end text-muted align-self-end pt-5">Se aplicarán todos los intrumentos de evaluación pertinentes y se entregará un informe de resultados a la empresa. </p>
                 </aside>
                 <div class="col-12 col-sm-6 col-lg-4 pb-2 pt-2 align-items-center ">
@@ -119,7 +120,10 @@
                 
             </div>
         </section>
-        <section class="container">
+    </div>
+</div>
+
+<section class="container">
     <div class="row">
         <div class="col">
             <p class="display-4 text-center">Blog</p>
@@ -165,15 +169,14 @@
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Beneficios </h5>
                 <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
-                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
+                <p class="text-white-50">Las ventajas que ofrece el contar con los servicios de consultoras de personal, es que se encargan de llevar a cabo una serie de procedimientos y técnicas especializadas para la selección, evaluación y capacitación del recurso humano, y que tienen en común la planificación de actividades para la búsqueda del recurso humano más calificado para el puesto.
                 <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
 
             </div>
         </div>  
     </div>
 
-</section>    
-    </div>
+</section>  
 
 <?php include('Footer.php');?>
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>

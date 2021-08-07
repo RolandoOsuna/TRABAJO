@@ -14,11 +14,12 @@
     }
 </style>
 <body>
-<?php require('Navbar.php');?>      
+<?php require('Navbar.php');?>     
+<div class="fs-5">
     <div class="container">
         <div class="row ">
             <div class="col-12 col-md-6">
-                <img src="/IMG/Metodología1.png" class="img-fluid " alt="">
+                <img src="/IMG/Metodologia1.png" class="img-fluid " alt="">
             </div>
             <div class="col-12 col-md-6 pt-4 ">
                 <h4 class="text-capitalize">Identificación de la situación actual</h4>
@@ -72,12 +73,10 @@
                 <p>Se evalúa y determina por el encargado de Comunicación de la Empresa cada qué tiempo se debe verificar, corregir y mejorar la situación de la comunicación dentro de la empresa, de manera que esto se convierta en algo cíclico y cada vez se mejore un poco más. 
                 La propuesta principal es que el naciente sistema de comunicación se sustente sobre una base con una proyección en la prospectiva estratégica de un horizonte de 3 años, donde coincidentemente con ese tiempo, se implementen sistemáticamente diagnósticos de comunicación como parte de su mejora continua. </p>
             </div>
-
         </div>
-
-
     </div>
-    <section class="container">
+</div> 
+<section class="container">
     <div class="row">
         <div class="col">
             <p class="display-4 text-center">Blog</p>
@@ -115,8 +114,8 @@
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Beneficios </h5>
                 <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
-                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
-                <a href="Definicion.php" class="text-black-50">  Ver más</a></p>
+                <p class="text-white-50">Las ventajas que ofrece el contar con los servicios de consultoras de personal, es que se encargan de llevar a cabo una serie de procedimientos y técnicas especializadas para la selección, evaluación y capacitación del recurso humano, y que tienen en común la planificación de actividades para la búsqueda del recurso humano más calificado para el puesto.
+                <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
 
             </div>
         </div>  

@@ -129,7 +129,7 @@
                
     </header>   
 
-    <div class="row my-2">
+    <div class="row m-2">
         <div class="col-12 shadow text-center bg-light bg-gradient ">
             <p class="display-5">Consultoría Externa</p>
             <h3 class="text-muted">Servicio de asesoría especializada</h2>
@@ -165,7 +165,7 @@
                             <div class="col-6 ">
                                 <a href="Cursos.php" class="text-decoration-none text-dark">            
                                     <p class="lead">Diseño de Cursos</p>
-                                    <img class="img-fluid " src="/IMG/Diseseño-de-Cursos.png" width="100" alt="">
+                                    <img class="img-fluid " src="/IMG/Diseno-de-Cursos.png" width="100" alt="">
                                 </a>
                             </div>
                             <div class="col-6">
@@ -231,7 +231,7 @@
         <div class="col-12 col-md-6 col-lg-3 pb-2">
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Definición </h5>
-                <h6 class="text-white-50">Qué hace un consultor y cómo elegir al mejor</h6>
+                <h6 class="text-white-50">Qué es, qué hace una consultora y cómo elegir a la mejor</h6>
                 <p class="text-white-50">Las consultoras de Recursos Humanos realizan un trabajo que implica análisis, identificación de problemas y creación de estrategias para resolverlos. Además, produce las modificaciones pertinentes para mejorar dicho departamento.
                 <a href="Definicion.php" class="text-black-50">  Ver más</a></p>
 
@@ -241,7 +241,7 @@
             <div class="p-3 border rounded bg-blog shadow text-light">
                 <h4>Beneficios </h5>
                 <h6 class="text-white-50">En que ayuda el optener una consulta</h6>
-                <p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae beatae nemo! Sunt, inventore cumque. Sequi enim corrupti incidunt, quod sint perferendis doloremque commodi dignissimos repudiandae necessitatibus alias quidem soluta?
+                <p class="text-white-50">Las ventajas que ofrece el contar con los servicios de consultoras de personal, es que se encargan de llevar a cabo una serie de procedimientos y técnicas especializadas para la selección, evaluación y capacitación del recurso humano, y que tienen en común la planificación de actividades para la búsqueda del recurso humano más calificado para el puesto.
                 <a href="Beneficios.php" class="text-black-50">  Ver más</a></p>
 
             </div>
@@ -252,7 +252,7 @@
 
 <!--OPINIONES-->
 <article class="bg-secondary ">
-    <div class="row align-items-center" style="height: 200px;">
+    <div class="row align-items-center mx-2" style="height: 200px;">
         <div class="col ">
             <figure class="text-center">
                 <blockquote class="blockquote">
