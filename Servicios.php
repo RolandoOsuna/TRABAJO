@@ -20,7 +20,7 @@
     <header class="container">
         <p class="display-4 text-center ">Servicios</p>
         <hr>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque omnis in laudantium aspernatur optio inventore maxime aliquam a tenetur? A tempore porro obcaecati voluptates atque, sapiente magni tenetur veniam rem, dignissimos quibusdam quidem. Culpa ab cupiditate provident sed beatae, odit soluta est quod, rem quibusdam natus iste voluptas facere!</p><!--Aqui se pondrá una descripcion de los servicios que se ofrecen-->
+      
     </header>
     <div class="container">
         <div class="row">

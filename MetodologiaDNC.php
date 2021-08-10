@@ -27,14 +27,16 @@
                 
                 <h4 class="text-capitalize">Caracterización de Necesidades de Capacitación del área.</h4>
                 <p>Con este instrumento, se espera que la jefatura directa de cada departamento emita su opinión acerca de las brechas de competencias que aprecia en su equipo, susceptibles de resolver mediante acciones de capacitación.
-                Esta Encuesta debe permitir una mirada lo más global posible de las carencias o debilidades del área de trabajo, proyectada hacia los temas de mayor importancia que demandarán competencias específicas en el futuro inmediato para el respectivo equipo laboral.  Por la misma razón, se incluye una consulta específica respecto de las tecnologías de la información de manera de dar cuenta de un componente clave en los conocimientos requeridos para una gestión eficiente bajo los nuevos paradigmas de competitividad y productividad. </p>
-                
-                <h5>Síntesis de Necesidades de Capacitación por Area.</h5>
-                <p>Ambas encuestas deben ser procesadas, considerando además la trayectoria educacional de cada colaborador. </p>
+                Esta Encuesta debe permitir una mirada lo más global posible de las carencias o debilidades del área de trabajo, proyectada hacia los temas de mayor importancia que demandarán competencias específicas en el futuro inmediato para el respectivo equipo laboral.</p>  
             </div>
         </div>
         <div class="row pt-3">
             <div class="col-12">
+                <p> Por la misma razón, se incluye una consulta específica respecto de las tecnologías de la información de manera de dar cuenta de un componente clave en los conocimientos requeridos para una gestión eficiente bajo los nuevos paradigmas de competitividad y productividad. </p>
+                
+                <h5>Síntesis de Necesidades de Capacitación por Area.</h5>
+                <p>Ambas encuestas deben ser procesadas, considerando además la trayectoria educacional de cada colaborador. </p>
+                
                 <h4 class="text-capitalize pt-3">Consolidado de Necesidades de Capacitación del Servicio</h4>
                 <p>Con estos antecedentes, se presentará ante Dirección un “Consolidado de Necesidades de Capacitación del Servicio”, que corresponde a la última fase del proceso. En este instrumento de Síntesis, se agruparán las necesidades de capacitación en función de la demanda que se aprecia de ellas. 
                 Dependiendo de la dinámica o acuerdos previos con Dirección la información a presentar deberá cumplir con cualquiera de las siguientes dos modalidades:

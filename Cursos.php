@@ -32,7 +32,6 @@
         <header>
             <p class="display-4 text-center">Cursos</p>
             <hr>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque omnis in laudantium aspernatur optio inventore maxime aliquam a tenetur? A tempore porro obcaecati voluptates atque, sapiente magni tenetur veniam rem, dignissimos quibusdam quidem. Culpa ab cupiditate provident sed beatae, odit soluta est quod, rem quibusdam natus iste voluptas facere!</p><!--Aqui se pondrá una descripcion de los Cursos que se ofrecen-->
         </header>
         <section>
             <!--DISEÑO-->
@@ -52,7 +51,7 @@
                         <p class="fs-5 text-center ">Manual del Instructor</p>
                         <hr>
                         <ul class="list-group list-group-flush ">
-                            <li class="list-group-item list-group-item-action list-group-item-secondary"> Descriptiva</li>
+                            <li class="list-group-item list-group-item-action list-group-item-secondary">Carta Descriptiva</li>
                             <li class="list-group-item list-group-item-action list-group-item-secondary">Formato de Lista de Verificación de Requerimientos</li>
                             <li class="list-group-item list-group-item-action list-group-item-secondary">Descripción de momentos e instrumentos de evaluación</li>
                             <li class="list-group-item list-group-item-action list-group-item-secondary">Instrumento de Evaluación Diagnóstica</li>

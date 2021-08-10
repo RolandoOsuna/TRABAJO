@@ -190,7 +190,8 @@
             <h4 class="pb-2">¡Contáctanos!</h4>
             <p class="fs-5">Llena el formulario y con gusto te atenderemos</p>
         </div>
-        <a href="Contacto.php" type="button" class="btn btn-primary">Contacto</a>
+        <a href="#mi-modal" data-bs-toggle="modal" data-bs-target="#mi-modal" type="button" class="btn btn-primary">Contacto</a>
+        <?php require('Contacto.php');?>
     </div>
 </div>
 
@@ -256,11 +257,11 @@
         <div class="col ">
             <figure class="text-center">
                 <blockquote class="blockquote">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et porro cum vitae dolore nesciunt?</p>
+                    <p>Todo será por el bien de tu empresa</p>
                 </blockquote>
-                <figcaption class="blockquote-footer text-body">
-                    Lorem ipsum dolor sit amet.
-                </figcaption>
+               <!-- <figcaption class="blockquote-footer text-body">
+                    
+                </figcaption>-->
             </figure>
         </div>
     </div>

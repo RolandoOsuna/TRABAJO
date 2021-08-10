@@ -2,12 +2,12 @@
     
 </style>
 <footer >
-    <div class="row bg-dark text-light p-2 mx-1">
+    <div class="navbar bg-dark text-light p-2  shadow-lg">
         
         <div class="col-12 col-md-6 col-lg-3 ps-5 pt-2 ">
-            <h6>**LOGO**</h6>
+            <img src="/IMG/Logo-footer.png" class="img-fluid" width="150" alt="">
             <p class="text-secondary" style="font-size: 11px;">
-                ©Lorem, ipsum. <br>
+                ©RC Consultora <br>
                 Todos los derechos reservados - 2021
             </p>
         </div>    
@@ -15,8 +15,51 @@
         <div class="col-12 col-md-6 col-lg-2 ps-5 pt-2">
             <h5>Enlaces</h5>
             <a href="index.php" class="link-secondary text-decoration-none">Inicio</a><br>       
-            <a href="Nosotros.php" class="link-secondary text-decoration-none">Nosotros</a><br>  
-            <a href="Contacto.php" class="link-secondary text-decoration-none">Contacto</a><br>  
+            <a href="Nosotros.php" class="link-secondary text-decoration-none">Sobre mí</a><br>  
+            <a href="#mi-modal" class="link-secondary text-decoration-none" data-bs-toggle="modal" data-bs-target="#mi-modal">Contacto</a><br>
+            <div class="modal fade" id="mi-modal" tabindex="-1" aria.hidden="true" aria-labelledby="label-modal"data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        ¡Contáctanos!
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="mb-3">
+                                            <label for="Nombre" class="form-label">Nombre Completo</label>
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="correo" class="form-label">Correo Electrónico</label>
+                                            <input type="text" class="form-control" id="correo" placeholder="Correo">
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label for="mensaje" class="form-label">Mensaje</label>
+                                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                                            <div id="respuesta-correo" class="form-text">
+                                                Te responderemos lo más antes posible
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" type="button">Aceptar</button>
+                        <button class="btn btn-light" type="button" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </div>
+                
+            </div>
+    </div> 
             <a href="Servicios.php" class="link-secondary text-decoration-none">Servicios</a>
         </div>
 

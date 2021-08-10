@@ -22,18 +22,23 @@
 <div class="fs-5">
 
     <header class="container">
-        <p class="display-4 text-center">Nosotros</p>
+        <p class="display-4 text-center">Sobre Mí</p>
         <hr>
         <p class="fs-3 text-muted text-center"> Bienvenido a</p>
-        <h3 class="text-center">**LOGO - NOMBRE DE LA EMPRESA**</h3>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure, et totam qui id aliquam debitis, consequuntur laborum minus iusto optio eius earum cupiditate voluptates iste nam corrupti quam quia.</p><!--Aqui se pondrá una descripcion de quien es la empresa-->
+        <div class="col d-flex justify-content-center"><img src="/IMG/Logo.png" class="img-fluid" width="450" alt=""></div>
     </header>
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 align-self-center">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, quasi. Pariatur esse consequuntur, ratione vero, temporibus vel rem eligendi consequatur nulla quod nostrum iure, iste similique omnis deserunt unde ipsa magnam aut blanditiis necessitatibus optio ullam. Corrupti, excepturi vero ab recusandae dolor perferendis quasi totam earum autem est repellendus aperiam!
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquam iste ea illum, fugit excepturi porro laboriosam magni asperiores, consequuntur ab veritatis quia, ipsum obcaecati. Aperiam deleniti voluptatum sint natus!
+                Master en Administración y Psicóloga Laboral con más de 15 años
+                de experiencia en Recursos Humanos y con excelentes habilidades
+                para liderar y consolidar equipos de alto rendimiento. Con
+                conocimientos especializados para identificar oportunidades de
+                negocio, optimizar procesos y maximizar la rentabilidad mediante
+                un análisis previo. Capaz de elaborar informes y presentar los
+                resultados a la dirección en la forma más adecuada para una mejor
+                toma de decisiones.
+
             </div>
             <div class="col-12 col-md-6 align-self-center">
                 <img class="img-fluid " src="/IMG/contenido3.png" alt="">
@@ -55,21 +60,22 @@
                     <div class="col-6 ">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Reclutamiento y Selección de Personal (Todos los niveles)</li>
-                            <li class="list-group-item">Entrevista por competencias</li>
-                            <li class="list-group-item">Aplicación de Exámenes psicométricos y Proyectivos (HTP, Machover, Cleaver, Therman, 16-PF, IPV, etc.)</li>
-                            <li class="list-group-item">Gestión de altas y Bajas de Personal</li>
-                            <li class="list-group-item">Proceso Onboarding</li>
-                            <li class="list-group-item">Despliegue del Programa de Cultura Organizacional</li>
-                            <li class="list-group-item">Dinámicas de Integración</li>
-                            <li class="list-group-item">Detección de Necesidades de Capacitación</li>
-                            <li class="list-group-item">Elaboración y coordinación del plan anual de Capacitación</li>
-                            <li class="list-group-item">Registro de Cursos en STPS</li>
+                            <li class="list-group-item">Proceso de Institucionalización</li>
+                            <li class="list-group-item">Comunicación Organizacional</li>
+                            <li class="list-group-item">Políticas, Reglamentos</li>
+                            <li class="list-group-item">Manuales de Procedimientos</li>
+                            <li class="list-group-item">Descripciones, Perfiles de Puestos</li>
+                            <li class="list-group-item">Reclutamiento y Selección</li>
+                            <li class="list-group-item">Pruebas Psicométricas</li>
+                            <li class="list-group-item">Capacitación y Desarrollo</li>
                             <li class="list-group-item">Desarrollo Organizacional</li>
-                            <li class="list-group-item">Encuestas de Clima Organizacional, Burnout, Norma-035</li>
-                            <li class="list-group-item">Evaluación de Desempeño, 360º</li>
-                            <li class="list-group-item">Metodología 9-Box</li>
+                            <li class="list-group-item">Evaluaciones de Desempeño, 360</li>
+                            <li class="list-group-item">Clima Organizacional</li>
+                            <li class="list-group-item">Norma 035</li>
+                            <li class="list-group-item">Kpi`s</li>
                             <li class="list-group-item">Plan de Ruta y Carrera</li>
-                            <li class="list-group-item">Tabulador de Sueldos y Esquema de Compensaciones</li>
+                            <li class="list-group-item">Metodología 9-Box</li>
+                            <li class="list-group-item">Compensación y beneficios</li>
                         </ul>
                     </div>
                     <div class="col-6">
@@ -91,7 +97,40 @@
                 </div>
             </div>
         </div>
-    
+
+        <div class="row d-flex justify-content-end">
+            <div class="col-6">
+                <p class="display-6 text-center">Formación</p>
+                <hr>
+
+                <h5 class="text-danger">1997-2002 Universidad de Occidente Campus Mazatlán.</h5>
+                <li class="blockquote">Licenciatura en Psicología del Trabajo.</li>
+                <figcaption class="blockquote-footer ">Cédula Profesional: 7768707</figcaption>
+
+                <h5 class="text-danger">2003-2005 Universidad de Occidente Campus Mazatlán.</h5>
+                <li class="blockquote">Maestría en Administración con especialidad en Estrategia y Comunicación Organizacional.</li>
+                <figcaption class="blockquote-footer ">Cédula Profesional: 8061902</figcaption>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <p class="display-6 text-center">Certificaciones</p>
+                <hr>
+
+                <h5 class="text-danger">2021 Instituto de Certificación Empresarial de México. RED CONOCE</h5>
+                <li class="blockquote"><strong>EC0301:</strong> Diseño de cursos de formación del capital humano de manera presencial grupal, sus instrumentos de evaluación y manuales del curso.</li>
+                <li class="blockquote"><strong>EC0217:</strong> EC0217: Impartición de cursos de formación del capital humano de manera presencial grupal..</li>
+                <figcaption class="blockquote-footer"><strong>Comité de Gestión por Competencias que lo desarrolló: </strong>Asociación Mexicana de Capacitación de Personal y Empresarial. AMECAP, A.C</figcaption>
+
+                <h5 class="text-danger">2021 INTERNATIONAL COACHING & SPEAKER FEDERATION ICSF-MX-L027</h5>
+                <li class="blockquote"><strong>SPEAKER MASTER: </strong>Desarrollo de Habilidades, Destrezas y Conocimientos del Coach, Conferencista y Capacitador</li>
+
+            </div>
+        </div>
+
+
         <div class="row">
             <p class="display-6 text-center">Más Sobre Nosotros</p>
             <hr>
