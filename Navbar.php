@@ -50,7 +50,7 @@
 </nav>-->
 <nav class="navbar navbar-expand-md fondo-nav navbar-light text-end">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php"><img src="/IMG/Logo.png" class="img-fluid" width="150" alt=""></a>
+    <a class="navbar-brand" href="index.php"><img src="/IMG/LogoNavbar.png" class="img-fluid" width="150" alt=""></a>
     <button 
         class="navbar-toggler bg-light"
         type="button" 
@@ -71,49 +71,7 @@
         </li>
         <li class="nav-item pe-md-5">
             <a href="#mi-modal" class="link-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#mi-modal">Contacto</a>
-            <div class="modal fade" id="mi-modal" tabindex="-1" aria.hidden="true" aria-labelledby="label-modal"data-bs-backdrop="static">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        ¡Contáctanos!
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row mt-3">
-                                <div class="col">
-                                    <form action="">
-                                        <div class="mb-3">
-                                            <label for="Nombre" class="form-label">Nombre Completo</label>
-                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="correo" class="form-label">Correo Electrónico</label>
-                                            <input type="text" class="form-control" id="correo" placeholder="Correo">
-                                        </div>
-                                        
-                                        <div class="mb-3">
-                                            <label for="mensaje" class="form-label">Mensaje</label>
-                                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
-                                            <div id="respuesta-correo" class="form-text">
-                                                Te responderemos lo más antes posible
-                                            </div>
-                                        </div>
-
-                                        <button type="submit" class="btn btn-primary">Enviar Comentario</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-                        <button class="btn btn-primary" type="button">Aceptar</button>
-                        <button class="btn btn-light" type="button" data-bs-dismiss="modal">Cancelar</button>
-                    </div>
-                </div>
-                
-            </div>
-    </div> 
+            <?php require('Contacto.php') ?>
         </li>
         <li class="nav-item pe-md-5">
           <a class="link-light text-decoration-none" href="Servicios.php">Servicios</a>

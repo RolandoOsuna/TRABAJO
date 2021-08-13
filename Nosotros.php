@@ -54,7 +54,7 @@
     
             </div>
             <div class="col-12 col-md-8 ">
-                <p class="display-6 text-center">Experiencia Laboral</p>
+                <p class="display-6 text-center">Resumen Laboral</p>
                 <hr>
                 <div class="row">
                     <div class="col-6 ">
@@ -99,7 +99,7 @@
         </div>
 
         <div class="row d-flex justify-content-end">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p class="display-6 text-center">Formación</p>
                 <hr>
 
@@ -115,7 +115,7 @@
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p class="display-6 text-center">Certificaciones</p>
                 <hr>
 
@@ -132,7 +132,7 @@
 
 
         <div class="row">
-            <p class="display-6 text-center">Más Sobre Nosotros</p>
+            <p class="display-6 text-center">Más Sobre Mí</p>
             <hr>
         </div>
         

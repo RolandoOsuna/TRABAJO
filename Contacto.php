@@ -12,19 +12,19 @@
                     <div class="container">
                         <div class="row mt-3">
                             <div class="col">
-                                <form action="">
+                                <form action="correos.php" method="POST">
                                     <div class="mb-3">
                                         <label for="Nombre" class="form-label">Nombre Completo</label>
-                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
                                     </div>
                                     <div class="mb-3">
                                         <label for="correo" class="form-label">Correo Electrónico</label>
-                                        <input type="text" class="form-control" id="correo" placeholder="Correo">
+                                        <input type="email" class="form-control" name="correo" id="correo" placeholder="Correo">
                                     </div>
                                     
                                     <div class="mb-3">
                                         <label for="mensaje" class="form-label">Mensaje</label>
-                                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                                        <textarea name="mensaje" name="mensaje" id="mensaje" class="form-control"></textarea>
                                         <div id="respuesta-correo" class="form-text">
                                             Te responderemos lo más antes posible
                                         </div>
@@ -46,5 +46,6 @@
         </div>
     </div> 
 </div>
+
 <script src="/BOOTSTRAP/js/bootstrap.bundle.js"></script>
 </body>

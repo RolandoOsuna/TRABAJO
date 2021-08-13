@@ -17,53 +17,11 @@
             <a href="index.php" class="link-secondary text-decoration-none">Inicio</a><br>       
             <a href="Nosotros.php" class="link-secondary text-decoration-none">Sobre mí</a><br>  
             <a href="#mi-modal" class="link-secondary text-decoration-none" data-bs-toggle="modal" data-bs-target="#mi-modal">Contacto</a><br>
-            <div class="modal fade" id="mi-modal" tabindex="-1" aria.hidden="true" aria-labelledby="label-modal"data-bs-backdrop="static">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        ¡Contáctanos!
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row mt-3">
-                                <div class="col">
-                                    <form action="">
-                                        <div class="mb-3">
-                                            <label for="Nombre" class="form-label">Nombre Completo</label>
-                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="correo" class="form-label">Correo Electrónico</label>
-                                            <input type="text" class="form-control" id="correo" placeholder="Correo">
-                                        </div>
-                                        
-                                        <div class="mb-3">
-                                            <label for="mensaje" class="form-label">Mensaje</label>
-                                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
-                                            <div id="respuesta-correo" class="form-text">
-                                                Te responderemos lo más antes posible
-                                            </div>
-                                        </div>
-
-                                        <button type="submit" class="btn btn-primary">Enviar Comentario</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal-footer">
-                        <button class="btn btn-primary" type="button">Aceptar</button>
-                        <button class="btn btn-light" type="button" data-bs-dismiss="modal">Cancelar</button>
-                    </div>
-                </div>
-                
-            </div>
-    </div> 
+            <?php require('Contacto.php') ?>
             <a href="Servicios.php" class="link-secondary text-decoration-none">Servicios</a>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4 ps-5 pt-2">
+        <div class="col-12 col-md-6 col-lg-4 pt-2">
             <h5>Contácto</h5>
             <p class=" text-secondary" > 
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill " viewBox="0 0 16 16">
@@ -92,14 +50,14 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                 </svg>
-                Racarliz301277@gmail.com
+                info@rcconsultora.com.mx
             </p>
 
             <p class="text-secondary">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                 </svg>
-                <a href="https://goo.gl/maps/ZBjRyEESRaxGmmcPA" class="link-secondary">Osa Mayor 3613. Villa Galaxia. Mazatlán, Sin. </a> 
+                <a href="https://goo.gl/maps/Jpm4ZjA99tZ74a646" class="link-secondary">Aquiles Serdán 1007-int. 3, Centro, 82000 Mazatlán, Sin.</a> 
             </p>
         </div>
 

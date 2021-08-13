@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
-</head>
-<style>
-    .bg-blog{
-        background-color: rgb(126,105,88);
-
-    }
-</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="/BOOTSTRAP/css/bootstrap.min.css">
+    </head>
+    <style>
+        .bg-blog{
+            background-color: rgb(126,105,88);
+            
+        }
+    </style>
 <body>
-<?php require('Navbar.php');?> 
-<div class="fs-5">
+    <?php require('Navbar.php');?> 
+
+    <div class="fs-5">
 
     <header class="container">
         <p class="display-4 text-center ">Servicios</p>
         <hr>
-      
     </header>
     <div class="container">
         <div class="row">
@@ -52,8 +52,25 @@
     
             </div>
         </div>
+
+        <div class="row py-5 justify-content-end text-center">
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 p-5 bg-warning rounded-pill">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="display-6 mb-0">Solicita tu Cotización</p>
+                        <hr>
+                        <p class="lead">Ponte en contacto con nosotros.</p>
+                    </blockquote>
+                    <a href="#mi-modal" data-bs-toggle="modal" data-bs-target="#mi-modal" type="button" class="btn btn-light">Contacto</a>
+                </figure>
+            </div>
+        </div>
+
     </div>
+
 </div>     
+
+
 
 <section class="container">
     <div class="row">
